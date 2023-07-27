@@ -28,9 +28,4 @@ app.use('/api/v1/tours', tourRouter)
 app.use('/api/v1/users', userRouter)
 
 
-// 4) START SERVER
-
-const port = 3030
-app.listen(port, () => {
-    console.log(`App is running from ${port}...`)
-})
+module.exports = app
